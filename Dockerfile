@@ -1,6 +1,6 @@
 FROM alpine:3.4
 
-RUN apk add --update --no-cache nodejs rsync tree vim jq zip build-base tar ca-certificates openssl bash && \
+RUN apk add --update --no-cache nodejs rsync tree vim jq zip build-base tar ca-certificates openssl bash openrc && \
     update-ca-certificates && \
     echo "Install Spy filewatcher" && \
     cd /tmp && \
