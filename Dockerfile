@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.5
 
 RUN apk add --update --no-cache nodejs rsync tree vim jq zip build-base tar ca-certificates openssl bash openrc && \
     update-ca-certificates && \
