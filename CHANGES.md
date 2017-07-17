@@ -4,7 +4,7 @@
 
 ## 0.3.0
 
-- Feature: Upgraded to alpine 3.6
+- Feature: Upgraded to alpine 3.5
 
 ## 0.2.0
 
